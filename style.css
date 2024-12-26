@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Outfit", serif;
+}
+.container{
+    width: 100%;
+}
+.head-top{
+    width: 100%;
+    background-color: #fcfcfc;
+    /* background-color: aqua; */
+    padding: 5px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-logo img{
+    width: 200px;
+}
+.head-left{
+    display: flex;
+    justify-content: flex-start;
+}
+.head-menu{
+    padding: 10px 30px;
+    display: flex;
+}
+.head-menu a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: gray;
+    cursor: pointer;
+}
+.head-menu i{
+    padding-left: 10px;
+}
+.head-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.head-search, .login-btn-div, .free-account-div{
+    padding: 10px;
+}
+.head-search-box{
+    padding: 8px 35px;
+    border: 0.3px solid #d3d3d3;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.head-search{
+    position: relative;
+}
+.head-search i{
+    position: absolute;
+    top: 22px;
+    left: 22px;
+    font-size: 14px;
+}
+.login-btn{
+    padding: 7px 10px;
+    border: 0.3px solid #d3d3d3;
+    border-radius: 4px;
+    font-size: 13px;
+    background: transparent;
+    letter-spacing: 0.5px;
+}
+.free-account-btn{
+    padding: 7px 10px;
+    border: 0.3px solid #4169e1;
+    border-radius: 4px;
+    color: #4169e1;
+    background: transparent;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+.login-btn-div i{
+    color: #4169e1;
+    margin-right: 5px;
+    font-size: 15px;
+}
+.head-search-box:focus{
+    border: 0.09px solid #4169e1;
+    outline: 0.09px solid #4169e1;
+}
+.login-btn:hover{
+    color: #4169e1;
+}
+
+/* ***Navbar bottom style*** */
+.head-bottom{
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 10px 30px;
+    height: 10%;
+    position: relative;
+}
+.navbar-bottom-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px 13px;
+}
+.navbar-lists{
+    list-style: none;
+    padding: 0px 16px;
+    font-size: 16px;
+    position: relative;
+    color: gray;
+    cursor: pointer;
+}
+.navbar-lists:after{
+    content: "";
+    background-color: #4169e1;
+    height: 1.5px;
+    width: 0;
+    position: absolute;
+    left: 0.5px;
+    bottom: -10px;
+}
+.navbar-lists:hover:after{
+    width: 100%;
+}
+.navbar-lists:hover{
+    color: #4169e1;
+}
+.disclaimer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 15px;
+    color: gray;
+    font-weight: 300;
+    position: absolute;
+    top: 0;
+    left:91.5%;
+}
+.disclaimer i{
+    padding-right: 5px;
+}
