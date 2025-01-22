@@ -140,3 +140,286 @@
 .disclaimer i{
     padding-right: 5px;
 }
+
+/* table 1 */
+#tcs-body{
+  background: #4169e1;
+}
+.tcs-page{
+  margin-top: 2em;
+}
+.tcs-row{
+    width: 100%;
+    height: 100%;
+}
+.tcs-container{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    height: 55vh;
+    background: #fff;
+    border-radius: 10px;
+}
+.tcs-top{
+   display: flex;
+   justify-content: space-between;
+}
+.tcs-right-top{
+    display: flex;
+    margin-top: 0.6rem;
+}
+.bi-link-45deg{
+    color: #4169e1;
+}
+.bi-box-arrow-up-right{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.tcs-link2, .tcs-link3{
+    color: #575757;
+    font-size: 0.9rem;
+    font-weight: 450;
+}
+.tcs-link1{
+    font-size: 0.9rem;
+    font-weight: 450;
+}
+.tcs-value{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 15px;
+    border: 1px solid #c7c7c7;
+    height: 170%;
+    border-radius: 10px;
+}
+.bi-currency-rupee, .bi-percent{
+    color: #8f8f8f;
+}
+.tcs-value h3{
+    font-size: 1em;
+    font-weight: 400;
+    color: #8f8f8f;
+}
+.tcs-bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    /* background: orange; */
+    height: 50%;
+    
+}
+.tcs-bottom-left{
+    width: 60%;
+    padding-bottom: 2rem;
+}
+.tcs-about{
+    width: 40%;
+    margin-left: 0.5rem;
+    padding: 10px 20px;
+}
+.tcs-link-icon{
+    color: #4169e1;
+}
+.tcs-links{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.5rem;
+}
+.tcs-links a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.tcs-heading{
+    display: flex;
+}
+.tcs-img{
+    width: 11%;
+}
+.tcs-logo{
+    width: 100%;
+}
+.tcs-heading > h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 0.6rem;
+}
+.tcs-download{
+    border: 1px solid #c7c7c7;
+    border-radius: 3px;
+    margin-right: 10px;
+    height: 2rem;
+}
+.tcs-download i{
+    padding: 10px 12px;
+    font-weight: 800;
+}
+.tcs-launch-btn{
+    border: 0px solid blue ;
+    padding: 10px 12px;
+    background: blue;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.tcs-launch a{
+    text-decoration: none;
+}
+.tcs-add{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.tcs-abt-btn{
+    border: none;
+    background:none;
+    letter-spacing: 1px;
+    color: #4169e1;
+    font-weight: 500;
+}
+.tcs-abt-btn i{
+    font-weight: 500;
+}
+.tcs-about p{
+    color: #8f8f8f;
+}
+
+/* analysis section */
+
+.analyse-container{
+    width: 90%;
+    margin: auto;
+    background: #fff;
+    height: 31vh;
+    margin-top: 2rem;
+    border-radius: 10px;
+    padding: 20px;
+}
+.analyse-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.analyse-col-left{
+    width: 50%;
+    border: 1px solid #198CFF;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.analyse-col-right{
+    width: 50%;
+    border: 1px solid #FF4DC4;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 1.5rem;
+}
+.right-list, .left-list{
+    color:#575757;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    margin-top: 0.6rem;
+}
+.analyse-row h3{
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+.bi-asterisk{
+    font-size: 0.4rem;
+    color: #575757;
+    margin-right: 0.3rem;
+}
+.analyse-note span{
+    font-size: 1rem;
+    color: #575757;
+}
+.bi-info-circle{
+    font-size: 0.7rem;
+    color: #575757;
+    font-weight: 700;
+    margin-left: 0.3rem;
+}
+.analyse-note{
+    margin-top: 0.8rem;
+}
+
+/* Profit & Loss section */
+.profit-loss{
+    margin-top: 2rem;
+}
+.profit-loss-container{
+    width: 90%;
+    margin: auto;
+    background: #fff;
+    height: 110vh;
+    border-radius: 10px;
+    padding: 20px;
+}
+.profit-loss-table-div{
+    width: 100%;
+    font-size: 0.9rem;
+}
+.profit-loss-table{
+    width: 100%;
+}
+.profit-loss-table>tr{
+    padding-top: 10px;
+}
+tbody>tr:nth-child(odd){
+    background: #f2f2f2;
+}
+.profit-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.profit-col{
+    width: 23%;
+    padding: 15px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+}
+.profit-table{
+    display: flex;
+    justify-content: space-between;
+}
+.profit-col h4{
+    font-weight: 450;
+}
+
+.profit-table-row1, .profit-table-row2{
+    font-size: 0.95rem;
+    padding: 3px 0px 0px 0px;
+}
+.pl-data{
+    padding: 5px;
+    text-indent: 15px;
+}
+.pl-year, .pl-year-total{
+    color: #575757;
+    font-weight: 400;
+    padding: 5px;
+}
+.pl-year-total{
+    text-indent: 22px;
+}
+.pl-title-row{
+    color:#000;
+    font-weight: 550;
+}
+.profit-loss-container h2{
+    margin-bottom: 5px;
+    font-size: 1.8rem;
+    font-weight: 450;
+}
+.profit-loss-container p{
+    color: #575757;
+    margin-bottom: 10px;
+}
