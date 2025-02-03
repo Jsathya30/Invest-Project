@@ -1,0 +1,55 @@
+/* media query */
+
+@media(max-width:995px){
+    .section{
+        background-position: fixed;
+    }
+    .top-section{
+        background-position: fixed;
+    }
+
+}
+
+@media(max-width:765px){
+    
+    .head-bottom-position{
+        display: block;
+        background: #fff;
+        height: 10vh;
+        position: fixed;
+        top: 95%;right: 0;left: 0; bottom: 1rem;
+    }
+    .head-pos-div{
+        display: flex;
+        justify-content: space-around;
+        padding: .5rem 1rem;
+        width: 100%;
+    } 
+    .head-pos-div a{
+        text-decoration: none;
+        color: rgb(97, 97, 97);;
+        font-size: 0.8rem;
+    }
+    .head-pos-div a i{
+        padding: 0 1rem;
+    }
+    .profit-loss-table-div .profit-loss-table .table-title-left{
+        position: fixed;
+        top: 0;right: 0;left: 0;
+    }
+
+}
+
+@media(max-width:450px){
+    .analyse-row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .analyse-row h3{
+        font-size: 0.8rem;
+    }
+    .right-list, .left-list{
+        font-size: 0.6rem;
+    }
+
+}
